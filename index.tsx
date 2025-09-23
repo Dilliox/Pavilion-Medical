@@ -119,7 +119,7 @@ const Location = () => (
         </div>
         <div className="rounded-lg shadow-xl overflow-hidden h-96">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.810565814234!2d-122.69335668431086!3d49.2801459793311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d4757519102b%3A0x89b6af651543883a!2sPitt%20River%20Medical%20Centre!5e0!3m2!1sen!2sca!4v1684357218519!5m2!1sen!2sca"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5210.738194539397!2d-122.69530102330295!3d49.231490971385185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d549769ae235%3A0x590b9ce969340dff!2sPitt%20River%20Medical%20Centre!5e0!3m2!1sen!2sca!4v1758654730652!5m2!1sen!2sca"
             width="100%"
             height="100%"
             style={{ border: 0 }}
