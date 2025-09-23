@@ -10,8 +10,8 @@ import ReactDOM from 'react-dom/client';
 const Header = () => (
   <header className="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
     <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-      <div className="text-2xl font-bold text-gray-800">
-        Pavillion Medical
+      <div className="text-3xl font-bold text-gray-800">
+        Pavilion Medical
       </div>
       <a
         href="http://calendar.app.google/NSVqrYKdL8SCCtem8"
@@ -49,8 +49,8 @@ const Hero = () => (
           "A friendly, cartoon-style illustration of a diverse group of happy people with smooth, glowing skin, in a clean, modern medical spa setting. A doctor in a lab coat is smiling in the background. Soft pastel colors."
         */}
         <img
-          src="https://picsum.photos/seed/pavillion-hero/1000/400"
-          alt="Happy clients at Pavillion Medical"
+          src="https://picsum.photos/seed/pavilion-hero/1000/400"
+          alt="Happy clients at Pavilion Medical"
           className="rounded-lg shadow-xl w-full max-w-4xl h-auto object-cover"
         />
       </div>
@@ -82,7 +82,7 @@ const About = () => (
                     */}
                     <img src="https://picsum.photos/seed/icon2/100/100" alt="Quick & Easy" className="mx-auto h-20 w-20 rounded-full mb-4"/>
                     <h3 className="text-xl font-semibold text-gray-800 mb-2">Quick & Easy</h3>
-                    <p className="text-gray-600">Treatments are fast, typically lasting only 15 minutes</p>
+                    <p className="text-gray-600">Treatments are fast, typically lasting only 15 minutes.</p>
                 </div>
                 <div className="bg-white p-8 rounded-lg shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
                     {/*
@@ -126,7 +126,7 @@ const Location = () => (
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Location of Pavillion Medical at Pitt River Medical Centre"
+            title="Location of Pavilion Medical at Pitt River Medical Centre"
           ></iframe>
         </div>
       </div>
@@ -137,7 +137,7 @@ const Location = () => (
 const Footer = () => (
     <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-6 text-center">
-            <p>&copy; {new Date().getFullYear()} Pavillion Medical. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Pavilion Medical. All rights reserved.</p>
             <p className="mt-2">
                 Ready to book? <a href="http://calendar.app.google/NSVqrYKdL8SCCtem8" target="_blank" rel="noopener noreferrer" className="text-pink-400 hover:underline font-bold">Book your appointment today!</a>
             </p>
