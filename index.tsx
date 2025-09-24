@@ -45,7 +45,7 @@ const Hero = () => (
       </a>
       <div className="mt-12 flex justify-center">
         <img
-          src="https://picsum.photos/seed/aesthetics/1200/600"
+          src="/images/Gemini_Generated_Image_5wbv4c5wbv4c5wbv.png"
           alt="A woman receiving a cosmetic treatment"
           className="rounded-lg shadow-xl w-full max-w-4xl h-auto object-cover"
         />
