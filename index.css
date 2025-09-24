@@ -1,1 +1,15 @@
 /* All styling is now handled by Tailwind CSS */
+
+/* Custom animation for a subtle pulse effect on call-to-action buttons */
+@keyframes subtle-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(236, 72, 153, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(236, 72, 153, 0);
+  }
+}
+
+.animate-subtle-pulse {
+  animation: subtle-pulse 2s infinite;
+}

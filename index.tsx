@@ -17,7 +17,7 @@ const Header = () => (
         href="http://calendar.app.google/NSVqrYKdL8SCCtem8"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:scale-105"
+        className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:scale-105 animate-subtle-pulse"
         aria-label="Book an appointment"
       >
         Book Now
@@ -39,7 +39,7 @@ const Hero = () => (
         href="http://calendar.app.google/NSVqrYKdL8SCCtem8"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-4 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 inline-block"
+        className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-4 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 inline-block animate-subtle-pulse"
       >
         Schedule Your Appointment
       </a>
