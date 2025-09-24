@@ -109,7 +109,11 @@ const Location = () => (
             <p className="text-lg text-gray-600 mb-2 font-medium">Pitt River Medical Centre</p>
             <p className="text-lg text-gray-600">105-19070 Lougheed Hwy.<br />Pitt Meadows, BC, Canada, V3Y 2M6</p>
           </address>
-          <p className="text-lg text-gray-600 mt-4">
+          <div className="mt-6">
+            <p className="text-lg text-gray-800 font-semibold">Your appointment will be with:</p>
+            <p className="text-xl text-pink-600 font-bold mt-1">Ting Jiang, Nurse Practitioner</p>
+          </div>
+          <p className="text-lg text-gray-600 mt-8">
             <strong>Phone:</strong> <a href="tel:604-459-9454" className="text-pink-600 hover:underline">(604) 459-9454</a>
           </p>
         </div>
